@@ -1,14 +1,15 @@
-# ASP.NET Core MVC Application
+# .NET Application
 
 ## Description
 
-This is a web application built using **ASP.NET Core MVC** with **.NET 9.0** and **C# 13.0**. 
+This is a web application built using **.NET 9.0** and **C# 13.0**. 
 
 ## Technologies Used
 
 - **.NET 9.0**: Framework for modern application development.
 - **C# 13.0**: The programming language used for the backend.
-- **Entity Framework Core** (if applicable for database interactions).
+- **Dapper ORM
+- **RabbitMQ
 
 ### Prerequisites
 
@@ -22,12 +23,12 @@ Ensure you have the following software installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/milaneznando/sup-tech-challenge
+   git clone [https://github.com/milaneznando/sup-tech-challenge](https://github.com/milaneznando/SupplierTechnicalChallenge.git)
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd sup-tech-challenge
+   cd SupplierTechnicalChallenge
    ```
 
 3. Restore dependencies:
