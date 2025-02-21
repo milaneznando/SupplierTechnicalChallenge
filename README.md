@@ -10,6 +10,7 @@ This is a web application built using **.NET 9.0** and **C# 13.0**.
 - **C# 13.0**: The programming language used for the backend.
 - **Dapper ORM
 - **RabbitMQ
+- **xUnit for unit testing
 
 ### Prerequisites
 
