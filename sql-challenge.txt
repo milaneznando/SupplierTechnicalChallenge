@@ -1,0 +1,24 @@
+1- Escreva um select que retorne o nome do cliente (campo nome da tabela de cliente) e sua última data de
+vencimento (campo dt_vct da tabela parcela) para o CNPJ (campo cpf_cgc da tabela cliente)
+“00865195000213”.
+Answer:
+```sql
+SELECT 
+    c.nome AS NomeCliente,
+    MAX(p.dt_vct) AS UltimaDataVencimento
+FROM 
+    cliente c
+INNER JOIN 
+    parcela p
+ON 
+    c.id_cliente = p.id_cliente
+WHERE 
+    c.cpf_cgc = '00865195000213'
+GROUP BY 
+```
+
+2- Qual função de caracteres você deverá usar para retornar uma parte específica de uma string de caracteres?
+Answer: B
+  
+3- Em um comando SELECT, qual cláusula poderá ser usada para excluir linhas, após agrupá-las? 
+Answer: C
